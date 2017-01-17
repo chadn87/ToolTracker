@@ -94,11 +94,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\ToolTracker.mdf" />
-    <Content Include="App_Data\ToolTracker_log.ldf">
-      <DependentUpon>ToolTracker.mdf</DependentUpon>
-    </Content>
-    <Content Include="LoginSuccess.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -122,13 +117,6 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LoginSuccess.aspx.cs">
-      <DependentUpon>LoginSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoginSuccess.aspx.designer.cs">
-      <DependentUpon>LoginSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

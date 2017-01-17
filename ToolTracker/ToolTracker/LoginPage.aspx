@@ -14,8 +14,10 @@
         <br />
         <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox>
         <br />
-        <asp:Button ID="cancel_button" runat="server" Text="Cancel" />
-        <asp:Button ID="login_button" runat="server" Text="Login" />
+        <asp:Button ID="cancel_button" runat="server" Text="Cancel" OnClick="cancel_button_Click" />
+        <asp:Button ID="login_button" runat="server" Text="Login" OnClick="login_button_Click" />
+
+        <asp:Label ID="invalid_login" runat="server" Text="Error:Invalid Login" Visible="False"></asp:Label>
 
 
     </div>
